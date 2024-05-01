@@ -1,0 +1,41 @@
+{
+    "juegos": [
+        {
+            "nombre": "Fallout 4",
+            "foto": "",
+            "descripcion": "Bethesda Game Studios, el galardonado creador de Fallout 3 y The Elder Scrolls V: Skyrim, os da la bienvenida al mundo de Fallout 4, su juego más ambicioso hasta la fecha y la siguiente generación de mundos abiertos.",
+            "precio": "$12 USD"
+        },
+        {
+            "nombre": "Overwatch 2",
+            "foto": "",
+            "descripcion": "Overwatch® 2 es un shooter por equipos aclamado por la crítica ambientado en un futuro optimista con un plantel de héroes en evolución. Júntate con amigos y jugad hoy mismo.",
+            "precio": "Gratis"
+        },
+        {
+            "nombre": "Guilty Gear Strive",
+            "foto": "",
+            "descripcion": "¡Vive la emoción de la batalla con las minuciosas mecánicas y las magníficas animaciones de Guilty Gear -Strive-, el título más reciente de la vanguardista serie Guilty Gear!",
+            "precio": "$19.99 USD"
+        },
+        {
+            "nombre": "Resident evil 4 REMAKE",
+            "foto": "",
+            "descripcion": "Sobrevivir es solo el principio. Con una mecánica de juego modernizada, una historia reimaginada y unos gráficos espectacularmente detallados, Resident Evil 4 supone el renacimiento de un gigante del mundo de los videojuegos.",
+            "precio": "$29.99 USD"
+        },
+        {
+            "nombre": "ULTRAKILL",
+            "foto": "",
+            "descripcion": "ULTRAKILL is a fast-paced ultraviolent retro FPS combining the skill-based style scoring from character action games with unadulterated carnage inspired by the best shooters of the '90s. Rip apart your foes with varied destructive weapons and shower in their blood to regain your health.",
+            "precio": "$12.49 USD"
+        },
+        {
+            "nombre": "Multiversus",
+            "foto": "",
+            "descripcion": "MultiVersus es un juego de lucha y plataformas gratuito que da vida a las estrellas más emblemáticas de WB a través de posibilidades de juego casi infinitas.",
+            "precio": "Gratis"
+        }
+
+    ]
+}
