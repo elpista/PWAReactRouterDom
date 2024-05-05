@@ -1,5 +1,5 @@
-import './styles.css';
-import Card from './Card/Card.js';
+import styles from './Cards.module.css';
+import Card from './Card/Card.jsx';
 
 function Cards({Cards}) {
 
