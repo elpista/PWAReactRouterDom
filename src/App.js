@@ -1,5 +1,5 @@
 import Home from "./Components/Home/Home.jsx";
-import style from './App.css';
+import './App.css';
 import { ROUTES } from './const/routes.js';
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
@@ -16,7 +16,7 @@ const router = createBrowserRouter([
 function App() {
   return (
     <div className="App">
-      <Home/>
+      <RouterProvider router = {router} />
     </div>
   );
 }
