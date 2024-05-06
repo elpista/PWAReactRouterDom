@@ -1,0 +1,39 @@
+[
+    {
+        "nombre": "Fallout 4",
+        "foto": "",
+        "precio": "$12 USD",
+        "id": "1"
+    },
+    {
+        "nombre": "Overwatch 2",
+        "foto": "",
+        "precio": "Gratis",
+        "id": "2"
+    },
+    {
+        "nombre": "Guilty Gear Strive",
+        "foto": "",
+        "precio": "$19.99 USD",
+        "id": "3"
+    },
+    {
+        "nombre": "Resident evil 4 REMAKE",
+        "foto": "",
+        "precio": "$29.99 USD",
+        "id": "4"
+    },
+    {
+        "nombre": "ULTRAKILL",
+        "foto": "",
+        "precio": "$12.49 USD",
+        "id": "5"
+    },
+    {
+        "nombre": "Multiversus",
+        "foto": "",
+        "precio": "Gratis",
+        "id": "6"
+    }
+
+]

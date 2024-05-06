@@ -1,4 +1,5 @@
 import Home from "./Components/Home/Home.jsx";
+import Detail from "./Components/Detail/Detail.jsx";
 import './App.css';
 import { ROUTES } from './const/routes.js';
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
@@ -7,7 +8,10 @@ const router = createBrowserRouter([
   {
     path: ROUTES.home,
     element: <Home />,
-  },
+  },{
+    path: ROUTES.detail,
+    element: <Detail/>
+  }
 ]);
 
 //hacer el pathing
