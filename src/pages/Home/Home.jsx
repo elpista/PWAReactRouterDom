@@ -1,7 +1,7 @@
-import Cards from "../Cards/Cards.jsx"
-import Search from "../Search/Search.jsx"
-import Header from "../Header/Header.jsx"
-import Footer from "../Footer/Footer.jsx"
+import Cards from "../../Components/Cards/Cards.jsx"
+import Search from "../../Components/Search/Search.jsx"
+import Header from "../../Components/Header/Header.jsx"
+import Footer from "../../Components/Footer/Footer.jsx"
 import { useEffect, useState } from "react";
 
 function Home(){
@@ -10,7 +10,7 @@ function Home(){
 
     const fetchJuegos = async () => {
         const response = await fetch("/mocks/Juegos.json");
-        const result = await response.json;
+        const result = await response.json();
         setJuegos(result);
     }
 

@@ -1,6 +1,10 @@
 import Header from "../../Components/Header/Header.jsx"
 import Footer from "../../Components/Footer/Footer.jsx"
 
+//use params     //   const {id} = useParams()  (react-router-dom)
+
+// https://reactrouter.com/en/main/hooks/use-params
+
 // CAMBIAR POR FETCH
 let juego = {
     nombre: "Fallout 4",
