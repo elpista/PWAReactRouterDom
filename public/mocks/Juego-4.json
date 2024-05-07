@@ -1,10 +1,12 @@
 {
     "juego": {
         "nombre": "Resident evil 4 REMAKE",
-        "foto": "",
+        "foto": "https://cdn.akamai.steamstatic.com/steam/apps/2050650/header.jpg?t=1707455805",
         "descripcion": "Sobrevivir es solo el principio. Con una mecánica de juego modernizada, una historia reimaginada y unos gráficos espectacularmente detallados, Resident Evil 4 supone el renacimiento de un gigante del mundo de los videojuegos.",
         "precio": "$29.99 USD",
         "rating": "5",
+        "fechaEstreno": "23 MAR 2023",
+        "desarrolladora": "CAPCOM Co., Ltd.",
         "id": "4"
     }
 }

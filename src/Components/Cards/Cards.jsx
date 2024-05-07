@@ -5,10 +5,9 @@ import { ROUTES } from '../../const/routes.js';
 
 function Cards({Juegos}) {
   const navigate = useNavigate();
-  console.log(Juegos)
 
   const onClickNavigate = (id) => {
-    navigate(ROUTES.detail);
+    navigate('/Detail/' + id);
   }
 
   if(Juegos.length === 0){
@@ -19,11 +18,13 @@ function Cards({Juegos}) {
         {Juegos.map(function(card) {
           return (
             <div key={card.id} className="col">
+              <a onClick={() => onClickNavigate(card.id)}>
                 <div className='cardContainer mx-auto my-2'>
                   <Card 
                   Card={card}
                   />
                 </div>
+              </a>
             </div>
           );
         })}
@@ -31,6 +32,6 @@ function Cards({Juegos}) {
     );
 
   }
-// <a onClick={onClickNavigate(card.id)}>
+// <a onClick={() => onClickNavigate(card.id)}>
 }
 export default Cards;

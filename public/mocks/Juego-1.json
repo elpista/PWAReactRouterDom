@@ -1,10 +1,12 @@
 {
     "juego": {
         "nombre": "Fallout 4",
-        "foto": "",
+        "foto": "https://cdn.akamai.steamstatic.com/steam/apps/377160/header.jpg?t=1712851055",
         "descripcion": "Bethesda Game Studios, el galardonado creador de Fallout 3 y The Elder Scrolls V: Skyrim, os da la bienvenida al mundo de Fallout 4, su juego más ambicioso hasta la fecha y la siguiente generación de mundos abiertos.",
         "precio": "$12 USD",
         "rating": "2.5",
+        "fechaEstreno": "10 NOV 2015",
+        "desarrolladora": "Bethesda Game Studios",
         "id": "1"
     }
 }
