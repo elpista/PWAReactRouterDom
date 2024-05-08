@@ -7,17 +7,13 @@ import {useEffect, useState} from "react"
 function Detail(){
 
     const {id} = useParams()
-    const [juego, setJuego] = useState()
+    const [juego, setJuego] = useState({})
 
     const fetchJuego = async () => {
         const response = await fetch("/mocks/Juego-" + id + ".json");
         const result = await response.json();
         setJuego(result);
     }
-
-    useEffect(() => {
-        console.log(juego);
-    }, [juego]);
 
     useEffect(() => {
         fetchJuego();

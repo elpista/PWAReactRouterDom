@@ -1,12 +1,10 @@
 {
-    "juego": {
-        "nombre": "Overwatch 2",
-        "foto": "https://cdn.akamai.steamstatic.com/steam/apps/2357570/header.jpg?t=1713385671",
-        "descripcion": "Overwatch® 2 es un shooter por equipos aclamado por la crítica ambientado en un futuro optimista con un plantel de héroes en evolución. Júntate con amigos y jugad hoy mismo.",
-        "precio": "Gratis",
-        "rating": "3",
-        "fechaEstreno": "10 AGO 2023",
-        "desarrolladora": "Blizzard Entertainment, Inc.",
-        "id": "2"
-    }
+    "nombre": "Overwatch 2",
+    "foto": "https://cdn.akamai.steamstatic.com/steam/apps/2357570/header.jpg?t=1713385671",
+    "descripcion": "Overwatch® 2 es un shooter por equipos aclamado por la crítica ambientado en un futuro optimista con un plantel de héroes en evolución. Júntate con amigos y jugad hoy mismo.",
+    "precio": "Gratis",
+    "rating": "3",
+    "fechaEstreno": "10 AGO 2023",
+    "desarrolladora": "Blizzard Entertainment, Inc.",
+    "id": "2"
 }

@@ -1,12 +1,10 @@
 {
-    "juego": {
-        "nombre": "Guilty Gear Strive",
-        "foto": "https://cdn.akamai.steamstatic.com/steam/apps/1384160/header.jpg?t=1711439227",
-        "descripcion": "¡Vive la emoción de la batalla con las minuciosas mecánicas y las magníficas animaciones de Guilty Gear -Strive-, el título más reciente de la vanguardista serie Guilty Gear!",
-        "precio": "$19.99 USD",
-        "rating": "4.6",
-        "fechaEstreno": "11 JUN 2021",
-        "desarrolladora": "Arc System Works",
-        "id": "3"
-    }
+    "nombre": "Guilty Gear Strive",
+    "foto": "https://cdn.akamai.steamstatic.com/steam/apps/1384160/header.jpg?t=1711439227",
+    "descripcion": "¡Vive la emoción de la batalla con las minuciosas mecánicas y las magníficas animaciones de Guilty Gear -Strive-, el título más reciente de la vanguardista serie Guilty Gear!",
+    "precio": "$19.99 USD",
+    "rating": "4.6",
+    "fechaEstreno": "11 JUN 2021",
+    "desarrolladora": "Arc System Works",
+    "id": "3"
 }

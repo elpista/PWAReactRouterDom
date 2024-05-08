@@ -1,12 +1,10 @@
 {
-    "juego": {
-        "nombre": "Multiversus",
-        "foto": "https://cdn.akamai.steamstatic.com/steam/apps/1818750/header.jpg?t=1714425480",
-        "descripcion": "MultiVersus es un juego de lucha y plataformas gratuito que da vida a las estrellas más emblemáticas de WB a través de posibilidades de juego casi infinitas.",
-        "precio": "Gratis",
-        "rating": "4.8",
-        "fechaEstreno": "19 JUL 2022",
-        "desarrolladora": "Player First Games",
-        "id": "6"
-    }
+    "nombre": "Multiversus",
+    "foto": "https://cdn.akamai.steamstatic.com/steam/apps/1818750/header.jpg?t=1714425480",
+    "descripcion": "MultiVersus es un juego de lucha y plataformas gratuito que da vida a las estrellas más emblemáticas de WB a través de posibilidades de juego casi infinitas.",
+    "precio": "Gratis",
+    "rating": "4.8",
+    "fechaEstreno": "19 JUL 2022",
+    "desarrolladora": "Player First Games",
+    "id": "6"
 }

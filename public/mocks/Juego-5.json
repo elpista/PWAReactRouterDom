@@ -1,12 +1,10 @@
 {
-    "juego": {
-        "nombre": "ULTRAKILL",
-        "foto": "https://cdn.akamai.steamstatic.com/steam/apps/1229490/header.jpg?t=1704406135",
-        "descripcion": "ULTRAKILL is a fast-paced ultraviolent retro FPS combining the skill-based style scoring from character action games with unadulterated carnage inspired by the best shooters of the '90s. Rip apart your foes with varied destructive weapons and shower in their blood to regain your health.",
-        "precio": "$12.49 USD",
-        "rating": "5",
-        "fechaEstreno": "3 SEP 2020",
-        "desarrolladora": "New Blood Interactive",
-        "id": "5"
-    }
+    "nombre": "ULTRAKILL",
+    "foto": "https://cdn.akamai.steamstatic.com/steam/apps/1229490/header.jpg?t=1704406135",
+    "descripcion": "ULTRAKILL is a fast-paced ultraviolent retro FPS combining the skill-based style scoring from character action games with unadulterated carnage inspired by the best shooters of the '90s. Rip apart your foes with varied destructive weapons and shower in their blood to regain your health.",
+    "precio": "$12.49 USD",
+    "rating": "5",
+    "fechaEstreno": "3 SEP 2020",
+    "desarrolladora": "New Blood Interactive",
+    "id": "5"
 }
