@@ -1,4 +1,5 @@
 import Header from "../../Components/Header/Header.jsx"
+import styles from './Detail.module.css'
 import Footer from "../../Components/Footer/Footer.jsx"
 import {useParams} from "react-router-dom"
 import {useEffect, useState} from "react"
@@ -20,19 +21,22 @@ function Detail(){
     }, [])
 
 return juego  && (
-    <div className="detail">
+    <div>
         <Header/>
-        <div className="nombre">
-            <h2>{juego.nombre}</h2>
+        <div className={styles.detail}>
+        <div className={styles.parteIzquierda}>
+            <div className={styles.nombre}>
+                <h2>{juego.nombre}</h2>
+            </div>
+            <div className={styles.foto}>
+                <img src={juego.foto}/>
+            </div>
+            <div className={styles.descripcion}>
+                <p>{juego.descripcion}</p>
+            </div>
         </div>
-        <div className="foto">
-            <img src={juego.foto}/>
-        </div>
-        <div className="descripcion">
-            <p>{juego.descripcion}</p>
-        </div>
-        <div className="Panel derecha">
-            <div className="fechaEstreno">
+        <div className={styles.panelDerecha}>
+            <div className={styles.fechaEstreno}>
                 <p>Fecha de lanzamiento: {juego.fechaEstreno}</p>
             </div>
             <div className="precio">
@@ -44,6 +48,7 @@ return juego  && (
             <div className="rating">
                 <p>rating: {juego.rating}</p>
             </div>
+        </div>
         </div>
         <Footer/>
     </div>
