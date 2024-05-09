@@ -85,7 +85,7 @@ function Search() {
   return (
     <div>
       <form onSubmit={handleSearchSubmit}>
-        <div className="foto bg-red-600 rounded-3xl p-6 size-96">
+        <div className="">
 
         
         <input

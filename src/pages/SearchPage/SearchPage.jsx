@@ -21,7 +21,7 @@ export const SearchPage = () => {
             Se encontraron <span>{filteredJuegos.length}</span>{' '}
             resultados:
         </p>
-            <div className='card-list-pokemon container'>
+            <div className='grid md:grid-cols-3 gap-5'>
                 {filteredJuegos.map(juego => (
                 <Card juego={juego} key={juego.id}/>
             ))}

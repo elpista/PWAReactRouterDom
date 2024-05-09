@@ -19,7 +19,7 @@ function Cards() {
     return <h2>No hay videojuegos cargados.</h2>
   } else {
     return (
-      <div className="Juegos row row-cols-1 row-cols-sm-2 row-cols-md-4 g-3">
+      <div className="grid md:grid-cols-3 gap-5">
         {Juegos.map(juego => (
           <Card key={juego.id} juego={juego} />
         ))}
