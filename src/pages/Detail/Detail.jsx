@@ -49,7 +49,7 @@ return juego  && (
         </div>
     </div>
     </div>
-    <Footer/>
+    <Footer ig="@ig_falso" mail="mail.falso@gmail.com"/>
 </div>
 )
 }

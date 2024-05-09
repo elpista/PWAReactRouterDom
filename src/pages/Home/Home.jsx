@@ -28,7 +28,7 @@ function Home(){
         <div className="Home">
             <Header   />
             <Cards/>
-            <Footer/>
+            <Footer ig="@ig_falso" mail="mail.falso@gmail.com"/>
         </div>
     )
 }
