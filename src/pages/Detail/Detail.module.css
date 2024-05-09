@@ -15,6 +15,7 @@
 
 .descripcion{
 
+    margin-right: 12px;
 }
 
 .parteIzquierda{
@@ -23,7 +24,7 @@
 
 .panelDerecha{
     margin-top: 100px;
-    width: 300px;
-    height: 300px;
+    width: 400px;
+    height: 310px;
     background-color: gray;
 }

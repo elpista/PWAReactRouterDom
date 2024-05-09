@@ -45,6 +45,9 @@ return juego  && (
             <div className="desarrolladora">
                 <p>Desarrolladora: {juego.desarrolladora}</p>
             </div>
+            <div className="genero">
+                <p>genero: {juego.genero}</p>
+            </div>
             <div className="rating">
                 <p>rating: {juego.rating}</p>
             </div>
