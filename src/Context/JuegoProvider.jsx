@@ -20,7 +20,6 @@ export const JuegoProvider = ({ children }) => {
         const response = await fetch("/mocks/Juegos.json");
         const result = await response.json();
         setJuegos(result);
-        console.log(result)
     }
 
     useEffect(() => {

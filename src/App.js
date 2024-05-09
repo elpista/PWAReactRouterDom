@@ -23,8 +23,6 @@ const router = createBrowserRouter([
 
 ]);
 
-//hacer el pathing
-//hacer el fetch
 
 function App() {
   return (

@@ -1,5 +1,4 @@
 import React from "react";
-import style from './List.module.css'
 import ListElement from "../ListElements/ListElements.jsx";
 
 function List({ Juegos }) {

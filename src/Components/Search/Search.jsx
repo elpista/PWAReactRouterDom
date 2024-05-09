@@ -54,7 +54,6 @@ function Search() {
 export default Search;*/
 
 import React, { useState, useEffect, useContext } from "react";
-import styles from "./Search.module.css";
 import { JuegoContext } from "../../Context/JuegoContext";
 import { useNavigate } from "react-router-dom";
 import { ROUTES } from "../../const/routes.js";
@@ -73,7 +72,6 @@ function Search() {
     const results = Juegos.filter((juego) =>
       juego.nombre.toLowerCase().includes(value.toLowerCase())
     );
-    console.log(value);
     setSearchResults(results);
   };
 
@@ -89,7 +87,7 @@ function Search() {
 
         
         <input
-          className={styles.LLENAR}
+          className=""
           id=""
           name="valueSearch"
           value={valueSearch}

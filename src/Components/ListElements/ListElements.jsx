@@ -1,7 +1,6 @@
 
 import { Link } from 'react-router-dom';
 import React from 'react';
-import style from './ListElements.module.css'
 function ListElement({ juego }) {
 
 
@@ -9,7 +8,7 @@ function ListElement({ juego }) {
     <Link to={`/Detail/${juego.id}`}>
     <li>
 
-      <img className={style.imageList} src={juego.foto} alt={juego.nombre} />
+      <img className="" src={juego.foto} alt={juego.nombre} />
       <div>
         <h3 >{juego.nombre}</h3>
         <p >${juego.precio}</p>
