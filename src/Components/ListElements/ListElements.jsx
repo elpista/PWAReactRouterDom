@@ -1,19 +1,20 @@
-import style from 'listElements.module.css'
+
 import { Link } from 'react-router-dom';
 import React from 'react';
-
+import style from './ListElements.module.css'
 function ListElement({ juego }) {
 
 
   return (
-    <Link to={juego.id}>
-    <div className={style.list-element}>
-      <img className={style.imagen} src={juego.foto} alt={juego.nombre} />
+    <Link to={`/Detail/${juego.id}`}>
+    <li>
+
+      <img className={style.imageList} src={juego.foto} alt={juego.nombre} />
       <div>
-        <h3 className={style.nombre}>{juego.nombre}</h3>
-        <p className={style.precio}>${juego.precio}</p>
+        <h3 >{juego.nombre}</h3>
+        <p >${juego.precio}</p>
       </div>
-    </div>
+    </li>
     </Link>
   );
 }

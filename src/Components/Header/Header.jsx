@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import Search from '../Search/Search.jsx';
 import ImageLink from '../ImageLink/ImageLink.jsx';
 import { ROUTES } from '../../const/routes.js';
+import Button from '../Button/Button.jsx';
 
 function Header({ Juegos, setSearchResults }) {
 
@@ -14,7 +15,7 @@ function Header({ Juegos, setSearchResults }) {
         imageUrl="./images/house.svg"
         alt="Home"
       />
-      <Search Juegos={Juegos} setSearchResults={setSearchResults} />
+      <Search />
     </div>
   );
 }

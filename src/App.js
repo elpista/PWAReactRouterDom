@@ -1,8 +1,13 @@
 import Home from "./pages/Home/Home.jsx";
 import Detail from "./pages/Detail/Detail.jsx";
+import { SearchPage }  from "./pages/SearchPage/SearchPage.jsx";
 import './App.css';
 import { ROUTES } from './const/routes.js';
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import { JuegoProvider } from "./Context/JuegoProvider.jsx";
+
+
+
 
 const router = createBrowserRouter([
   {
@@ -11,7 +16,11 @@ const router = createBrowserRouter([
   },{
     path: ROUTES.detail,
     element: <Detail/>
+  },{
+    path: ROUTES.search,
+    element: <SearchPage/>
   }
+
 ]);
 
 //hacer el pathing
@@ -19,11 +28,15 @@ const router = createBrowserRouter([
 
 function App() {
   return (
+    <JuegoProvider>
+
+
     <div className="App">
       <header className="App-header">
         <RouterProvider router = {router} />
       </header>
     </div>
+    </JuegoProvider>
   );
 }
 
