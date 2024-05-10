@@ -13,18 +13,24 @@ export const SearchPage = () => {
 		juego.nombre.toLowerCase().includes(location.state.toLowerCase())
 	);
     return (
-        <div className={style.container} >
+        <div className="" >
 
         <Header />
+
+
         
         <p className='p-search'>
             Se encontraron <span>{filteredJuegos.length}</span>{' '}
             resultados:
         </p>
-            <div className='grid md:grid-cols-3 gap-5'>
+        <div className="flex justify-around mt-10">
+        <div className='grid md:grid-cols-3 gap-5 '>
+            
                 {filteredJuegos.map(juego => (
                 <Card juego={juego} key={juego.id}/>
             ))}
+            
+            </div>
             </div>
         </div>
 )

@@ -58,12 +58,16 @@ import { JuegoContext } from "../../Context/JuegoContext";
 import { useNavigate } from "react-router-dom";
 import { ROUTES } from "../../const/routes.js";
 import List from "../List/List.jsx";
+import Button from "../Button/Button.jsx";
 
 function Search() {
   const navigate = useNavigate();
-  const { onInputChange, valueSearch, onResetForm, Juegos } =
-    useContext(JuegoContext);
+  const { onInputChange, valueSearch, onResetForm, Juegos } = useContext(
+    JuegoContext
+  );
   const [searchResults, setSearchResults] = useState([]);
+  const [showList, setShowList] = useState(false);
+  const [inputPosition, setInputPosition] = useState({ x: 0, y: 0 });
 
   const handleChange = (event) => {
     const { value } = event.target;
@@ -73,34 +77,46 @@ function Search() {
       juego.nombre.toLowerCase().includes(value.toLowerCase())
     );
     setSearchResults(results);
+    setShowList(value.trim() !== "");
+    
   };
 
   const handleSearchSubmit = (e) => {
     e.preventDefault();
     navigate(ROUTES.search, { state: valueSearch });
+    onResetForm()
+    setShowList(false)
+
+  };
+
+  const handleInputFocus = (event) => {
+    const inputRect = event.target.getBoundingClientRect();
+    setInputPosition({ x: inputRect.left, y: inputRect.bottom });
+
+
   };
 
   return (
-    <div>
-      <form onSubmit={handleSearchSubmit}>
-        <div className="">
-
-        
+    <div className="relative w-4/12 ml-64">
+      <form className="flex" onSubmit={handleSearchSubmit}>
         <input
-          className=""
-          id=""
+          className="w-full px-3 py-2  border focus:outline-none text-black"
           name="valueSearch"
           value={valueSearch}
           onChange={handleChange}
+          onFocus={handleInputFocus}
           type="search"
           placeholder="Buscar juego por nombre o género."
+          autoComplete="off"
         />
-        </div>
-        <button>Buscar</button>
+        <Button text="Buscar" className="text-xs" />
       </form>
-      {valueSearch !== '' && (
-        <List Juegos={searchResults}/>
-)}
+      {showList && (
+        <List
+          Juegos={searchResults}
+
+        />
+      )}
     </div>
   );
 }

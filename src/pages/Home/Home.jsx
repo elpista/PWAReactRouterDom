@@ -13,22 +13,14 @@ function Home(){
 
     const { Juegos } = useContext(JuegoContext)
     
-/*
-    const fetchJuegos = async () => {
-        const response = await fetch("/mocks/Juegos.json");
-        const result = await response.json();
-        setJuegos(result);
-    }
-
-    useEffect(() => {
-        fetchJuegos();
-    }, [])*/
 
     return(
-        <div className="Home">
-            <Header   />
+        <div className="Home ">
+            <Header />
+            <div className="flex justify-around mt-10">
             <Cards/>
-            <Footer ig="@ig_falso" mail="mail.falso@gmail.com"/>
+            </div>
+            <Footer />
         </div>
     )
 }

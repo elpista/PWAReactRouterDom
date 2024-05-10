@@ -1,17 +1,26 @@
+import React, { useState, useEffect } from 'react';
+import ImageLink from '../ImageLink/ImageLink';
+  
+//FALTA COMPLETAR EL FOOTER, PARA EL 11/5 YA ESTA
 
-
-function Footer({ig, mail}){
-    let igLogo = "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Instagram_icon.png/800px-Instagram_icon.png"
-    let mailLogo = "https://www.ramosmejia.com/wp-content/uploads/2017/11/mail-logo.png"
-
-    return(
-    <div className="footer flex justify-center items-center text-center h-40 bg-blue-600 mt-10">
-        <img src={igLogo} className="h-6" />
-        <p className="ml-1">{ig}</p>
-        <img src={mailLogo} className="h-6 ml-6"/>
-        <p className="ml-1">{mail}</p>
+function Footer() {
+  return (
+    <div className=" bg-black  h-32 mt-10">
+      <div className='flex'>
+        <div>
+        <h4>Follow us</h4>
+        </div>
+        <div>
+            <ImageLink 
+            to={'https://www.instagram.com/gamezonepwa'}
+            imageUrl="https://png.pngtree.com/png-clipart/20230807/original/pngtree-video-game-shop-theme-logo-template-tournament-happy-shop-vector-picture-image_10094359.png"
+            alt="Instagram"
+            className="h-10s"
+            />
+        </div>
+      </div>
     </div>
-    );
+  );
 }
 
-export default Footer
+export default Footer;
