@@ -1,8 +1,6 @@
 import React, { useState, useEffect } from "react";
 import ImageLink from "../ImageLink/ImageLink";
 
-//FALTA COMPLETAR EL FOOTER, PARA EL 11/5 YA ESTA
-
 function Footer() {
   return (
     <div className=" bg-gray-700  h-34 mt-10 border-t-4 border-white">

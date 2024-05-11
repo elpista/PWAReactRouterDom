@@ -4,7 +4,7 @@ function Card({ juego }) {
 
     return (
 <Link className="" to={`/Detail/${juego.id}`}>
-      <div className="bg-red-600 rounded-3xl p-0 size-96">
+      <div className="bg-red-600 rounded-3xl p-0 h-80 w-96">
         <div className="divFoto">
           <img className='foto border-4 border-red-900' src={juego.foto} alt={juego.nombre}></img>
         </div>
@@ -18,7 +18,6 @@ function Card({ juego }) {
 </Link>
     )
 }
-//falta el routeo
 export default Card;
 
 

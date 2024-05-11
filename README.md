@@ -5,8 +5,12 @@ Trabajo práctico de React con React Router y Tailwind CSS de la materia Program
 El objetivo es crear una aplicación web que muestre una lista de elementos en forma de
 tarjetas en la página de inicio y se puedan ver más detalles al hacer click.
 
+
+## Gameshop
 Nuestra aplicación muestra una lista sobre videojuegos cargados en mocks, que tienen
 información como su imagen, descripción, precio, rating, entre otros datos.
+
+![gameshop](./public/images/screenshot1.jpg)
 
 ## Instalación
 1. Clonar el repositorio desde el terminal con el comando `git clone <link-repositorio>`.
