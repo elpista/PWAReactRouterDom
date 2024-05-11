@@ -77,7 +77,7 @@ function Search() {
       juego.nombre.toLowerCase().includes(value.toLowerCase())
     );
     setSearchResults(results);
-    setShowList(value.trim() !== "");
+    setShowList(value.trim() !== "" && results.length > 0);
     
   };
 
@@ -100,7 +100,7 @@ function Search() {
     <div className="relative w-4/12 ml-64">
       <form className="flex" onSubmit={handleSearchSubmit}>
         <input
-          className="w-full px-3 py-2  border focus:outline-none text-black"
+          className="w-full px-3 py-2 border focus:outline-none text-black"
           name="valueSearch"
           value={valueSearch}
           onChange={handleChange}
